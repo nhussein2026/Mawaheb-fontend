@@ -224,7 +224,7 @@ const CoursePage = () => {
               </h3>
               {course.course_image && (
                 <img
-                  src={`${process.env.REACT_APP_API_URL}/${course.course_image}`}
+                  src={course.course_image}
                   alt={course.title}
                   className="mb-4 w-full h-auto rounded-md"
                 />
